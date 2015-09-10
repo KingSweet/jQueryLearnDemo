@@ -1,0 +1,63 @@
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    float: left;
+    background-color: #868686;
+    color: #ffffff;
+    padding: 5px;
+    margin-right: 3px;
+    border: 1px solid #ffffff;
+}
+
+.tabin {
+    background-color: #6e6e6e;
+    border: solid 1px #6e6e6e;
+}
+
+.contentFirst {
+    clear: both;/*指定段落的左侧或右侧不允许浮动的元素*/
+    background-color: #6e6e6e;
+    color: #ffffff;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    display: none;
+}
+
+.content {
+    display: block;
+}
+
+#tab2 li {
+    float: left;
+    background-color: white;
+    color: deepskyblue;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #ffffff;
+}
+
+#tab2 .tabin {
+    border: solid 1px black;
+    border-bottom-width: 0px;
+    z-index: 100;
+    position: relative;
+}
+
+.contentTwo {
+    clear: both;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    display: none;
+    z-index: 0;
+    position: relative;
+    top: -2px;
+}
+.content2 {
+    display: block;
+}

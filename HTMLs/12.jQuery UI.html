@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../JS/jquery-2.1.4.min.js"></script>
+    <script src="../JS/jquery-ui.min.js"></script>
+    <link type="text/css" href="../JS/jquery-ui.min.css" rel="stylesheet">
+    <script src="../JS/12.js"></script>
+    <style>
+        .div-1 {
+            width: 100px;
+            height: 100px;
+            background-color: #1c94c4;
+        }
+
+        #div-2 {
+            width: 200px;
+            height: 200px;
+            background-color: #fbd850;
+        }
+
+        .ui-selected {
+            background-color: aqua;
+        }
+
+        #div-4 {
+            width: 500px;
+            height: 200px;
+            background-color: white;
+        }
+
+        /*jquery ui menu 横向设置*/
+        .ui-menu:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        .ui-menu .ui-menu-item {
+            display: inline-block;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+        ul {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<!--1.试用-->
+<a href="https://www.baidu.com" id="a-1">KingSweet</a><br/><br/>
+
+
+<!--2.draggable-->
+<div id="div-1" class="div-1">拖动</div><br/><br/>
+
+
+<!--3.dropable-->
+<div id="div-2" class="div-1">放置</div><br/><br/>
+
+
+<!--4.resizable-->
+<div id="div-3" class="div-1">调节尺寸</div><br/><br/>
+
+
+<!--5.Selectable-->
+<strong>选择!</strong>
+<ul id="ul-1">
+    <li>1.1111</li>
+    <li>2.2111</li>
+    <li>3.3111</li>
+</ul><br/><br/>
+
+
+<!--6.Sortable-->
+<ul id="ul-2">
+    <li>1.1111</li>
+    <li>2.2111</li>
+    <li>3.3111</li>
+</ul><br/><br/>
+
+
+<!--7.accordion-->
+<div id="div-4" class="div-1">折叠
+    <h3>First header</h3>
+    <div>First content panel</div>
+    <h3>Second header</h3>
+    <div>Second content panel</div>
+    <h3>Second header</h3>
+    <div>Second content panel</div>
+    <h3>Second header</h3>
+    <div>Second content panel</div>
+    <h3>Second header</h3>
+    <div>Second content panel</div>
+</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<!--8.自动完成部件（Autocomplete Widget）-->
+<label for="input-1">自动补全</label>
+<input id="input-1"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+
+<!--9.日期选择器部件（Datepicker Widget）-->
+<p>Date:<input id="input-2"></p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<!--10.对话框-->
+<button id="btn-1">打开对话框</button>
+<div id="div-5" title="对话框标题">我是一个对话框</div>
+
+
+<!--11.进度条部件（Progressbar Widget）-->
+<div id="div-6"></div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+<!--12.菜单部件（Menu Widget）-->
+<ul id="ul-3">
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a>
+        <ul>
+            <li><a href="#">Item 3-1</a></li>
+            <li><a href="#">Item 3-2</a></li>
+            <li><a href="#">Item 3-3</a></li>
+            <li><a href="#">Item 3-4</a></li>
+            <li><a href="#">Item 3-5</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Item 4</a></li>
+    <li><a href="#">Item 5</a></li>
+</ul>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<!--13.滑块部件-->
+<span id="span-1">滑块值</span>
+<div id="div-7">滑块部件</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+</body>
+</html>

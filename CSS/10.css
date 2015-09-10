@@ -1,0 +1,42 @@
+ul, li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;/*考虑IE低端浏览器的兼容*/
+}
+
+.main, .main2{
+    background-color: dimgray;
+    width: 100px;
+}
+.main li, .main2 li {
+    background-color: #eeeeee;
+}
+
+.main a, .main2 a {
+    text-decoration: none;/*取消下划线*/
+    display: block;
+    padding-left: 20%;
+    width: 80%;
+    color: white;
+    background-image: url("../imgs/10.jpg");
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+}
+
+.main li a, .main2 li a {
+    color: black;
+    background-image: url("../imgs/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+}
+
+.main ul, .main2 ul {
+    display: none;
+}
+
+.main2 {
+    float: left;
+}
